@@ -19,14 +19,12 @@ Toggle top-right. The launcher remembers your choice.
 
 Built for computer lab work, family PC hand-offs, fresh-install bootstraps, and the kind of network/system triage where you need real tools, fast, without installing a dozen things.
 
-## ✨ New in v1.2.3
+## ✨ New in v1.2.4
 
-- **🗂️ Unified `logs/` folder** — every tool writes its reports to `<your-folder>\logs\` now. No more hunting across `C:\kai\logs`, `%LOCALAPPDATA%`, and other stray places.
-- **🐞 Debug button** — top-right pill opens a live diagnostic showing launcher dir, search paths, and every tool's resolved status. Copy / open log / open folder buttons.
-- **debug.bat** — double-click instead of `Kai-Toolbox.exe` when something's broken. Launches the toolbox, then pops the newest debug log in Notepad. Paste it in an issue and we can actually help.
-- **Startup auto-dump** — a debug log is written to disk before the UI even loads, so even a silent-fail launch leaves forensics behind.
+- **🔓 Self-unblock on first launch** — Kai-Toolbox now strips the Mark-of-the-Web tag from every file in its folder the first time it runs. Fixes the cryptic `"The operation was canceled by the user"` error that Windows silently throws on `-requireAdmin` exes freshly extracted from the release zip. **No more manual `Unblock-File` steps** — it just works.
 
 ### Previously in v1.2.x
+- **v1.2.3** — unified `logs/` folder, Debug button + `debug.bat`, startup auto-dump.
 - **v1.2.2** — cleaner zip layout: tools live in `tools/`, top level has only the launcher.
 - **v1.2.1** — portable tool discovery (find tools next to the exe).
 - **v1.2.0** — Easy Mode + Advanced Mode toggle, Full Health Check combo tool, restore-point safety net.
