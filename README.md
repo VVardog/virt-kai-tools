@@ -19,11 +19,17 @@ Toggle top-right. The launcher remembers your choice.
 
 Built for computer lab work, family PC hand-offs, fresh-install bootstraps, and the kind of network/system triage where you need real tools, fast, without installing a dozen things.
 
-## ✨ New in v1.2.0
+## ✨ New in v1.2.3
 
-- **Easy Mode + Advanced Mode** toggle (top-right pill)
-- **🧭 Full Health Check** — one-click combo that runs 4 diagnostics and writes a combined HTML report to your Desktop
-- **🛡️ Restore-point safety net** — offered before every destructive tool, with a "remember my choice" checkbox
+- **🗂️ Unified `logs/` folder** — every tool writes its reports to `<your-folder>\logs\` now. No more hunting across `C:\kai\logs`, `%LOCALAPPDATA%`, and other stray places.
+- **🐞 Debug button** — top-right pill opens a live diagnostic showing launcher dir, search paths, and every tool's resolved status. Copy / open log / open folder buttons.
+- **debug.bat** — double-click instead of `Kai-Toolbox.exe` when something's broken. Launches the toolbox, then pops the newest debug log in Notepad. Paste it in an issue and we can actually help.
+- **Startup auto-dump** — a debug log is written to disk before the UI even loads, so even a silent-fail launch leaves forensics behind.
+
+### Previously in v1.2.x
+- **v1.2.2** — cleaner zip layout: tools live in `tools/`, top level has only the launcher.
+- **v1.2.1** — portable tool discovery (find tools next to the exe).
+- **v1.2.0** — Easy Mode + Advanced Mode toggle, Full Health Check combo tool, restore-point safety net.
 
 ## Download
 
