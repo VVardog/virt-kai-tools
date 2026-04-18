@@ -10,9 +10,20 @@
 
 ## What is this?
 
-31 standalone Windows utilities compiled into individual `.exe` files, plus a launcher (**Kai-Toolbox**) that discovers them all and shows them in a clean card-based UI with search, categories, and staging badges.
+31 standalone Windows utilities compiled into individual `.exe` files, plus a launcher (**Kai-Toolbox**) with **two modes**:
+
+- **🛡️ Easy Mode** — 7 big friendly cards with plain-language taglines. Pick the problem that sounds like yours.
+- **⚔️ Advanced Mode** — full card grid with search, categories, and staging badges.
+
+Toggle top-right. The launcher remembers your choice.
 
 Built for computer lab work, family PC hand-offs, fresh-install bootstraps, and the kind of network/system triage where you need real tools, fast, without installing a dozen things.
+
+## ✨ New in v1.2.0
+
+- **Easy Mode + Advanced Mode** toggle (top-right pill)
+- **🧭 Full Health Check** — one-click combo that runs 4 diagnostics and writes a combined HTML report to your Desktop
+- **🛡️ Restore-point safety net** — offered before every destructive tool, with a "remember my choice" checkbox
 
 ## Download
 
