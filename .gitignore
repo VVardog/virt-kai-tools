@@ -1,0 +1,10 @@
+# No binaries in the repo itself — they live in Releases.
+*.exe
+*.zip
+*.log
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
