@@ -148,9 +148,9 @@ Most tools write a timestamped crash log to <code>Desktop\kai-reports\</code>. O
 
 ## Why?
 
-I build PCs in a computer lab. Over the years I've collected a dozen PowerShell one-liners, registry tweaks, DISM incantations, and service-restart dances — the kind of knowledge that lives in your muscle memory and dies with your next OS reinstall. This is all of that, baked into clickable exes, so anyone can use them.
+ Over the years I've collected a dozen PowerShell one-liners, registry tweaks, DISM incantations, and service-restart dances — the kind of knowledge that lives in your muscle memory and dies with your next OS reinstall. This is all of that, baked into clickable exes, so anyone can use them.
 
-Designed with the help of [Kai](https://github.com/openclaw/openclaw) ⚡🗡️ — an AI pair-programmer who caught most of the ICMP-related gotchas, null-reference traps, and "wait that won't actually work on Home edition" edge cases.
+.
 
 ## License
 
@@ -158,8 +158,8 @@ MIT — use it, fork it, ship it, whatever. If it eats your registry, you still 
 
 ## Credits
 
-- **Built by:** [VVardog](https://github.com/VVardog)
-- **AI partner:** Kai (via [OpenClaw](https://github.com/openclaw/openclaw))
+- **Built by:** [VVardog]
+- **AI partner:** Kai 
 - **Compiler:** [ps2exe](https://github.com/MScholtes/PS2EXE) v1.0.13
 - **UI:** WPF
 - **Icon:** crossed swords ⚔️
