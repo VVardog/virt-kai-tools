@@ -1,7 +1,9 @@
-# ⚡🗡️ virt-kai-tools
+# ⚡🗡️ virt-kai-tools  ·  suite v1.3.0
 
 **A curated fleet of Windows repair, diagnostic, and admin utilities.**
 Single-file `.exe`s. No install. Zero dependencies. Built by [VVardog] with AI partner **Kai**.
+
+See [`CHANGELOG.md`](CHANGELOG.md) for release history.
 
 > *Teamwork makes the dream work. Only as strong as the weakest link.*
 
